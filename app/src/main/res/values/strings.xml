@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Hyperkicks</string>
+    <string name="shop">SHOP</string>
+    <string name="orders">ORDERS</string>
+    <string name="favorites">FAVORITES</string>
+    <string name="settings">SETTINGS</string>
+    <string name="OPEN">open</string>
+    <string name="CLOSE">close</string>
+    <string name="welcome_to_hyperkicks">Welcome to HYPERKICKS</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_a_member_yet">Not a member yet?</string>
+    <string name="or">--------------or-------------</string>
+    <string name="log_in_with">Log In With</string>
+    <string name="connect_with_us_via">connect with us via</string>
+    <string name="at_least_8_characters_1_upper_case_letter_1_number_one_symbol"><![CDATA[At least 8 characters, 1 upper case letter, 1 number & one symbol]]></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_your_email">enter your email</string>
+    <string name="log_in">Log in</string>
+    <string name="please_enter_the_email_address_that_is_associated_with_your_hyperkicks_account">please enter the email address that is associated with your Hyperkicks account</string>
+    <string name="go_back_to_sign_in_sign_up"><![CDATA[<Go back to sign-in/sign-up]]></string>
+    <string name="reset_password">Reset password</string>
+    <string name="reset_password_btn">Reset Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hyperkicks">HyperKicks</string>
+    <string name="explore_popular_brands">Explore popular Brands</string>
+    <string name="shop_by_brand">Shop by Brand</string>
+    <string name="recommened_for_you">Recommened For you</string>
+    <string name="product_name">PRODUCT NAME</string>
+    <string name="mrp_of_product">MRP :</string>
+    <string name="price_of_product">00.00</string>
+    <string name="just_in">Just In</string>
+    <string name="todo">TODO</string>
+    <string name="checkout">Checkout</string>
+    <string name="your_cart">Your Cart</string>
+    <string name="quantity">quantity</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="customer_support_">CUSTOMER SUPPORT</string>
+    <string name="enter_your_text">Enter your Text</string>
+    <string name="user_message">User message</string>
+    <string name="enter_your_message">Enter your Message</string>
+    <string name="loading">Loading..........</string>
+    <string name="add_to_cart_">Add to Cart</string>
+    <string name="brand_name">brand name</string>
+    <string name="_9uk">9UK</string>
+
+</resources>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "617451811406",
+    "firebase_url": "https://hperkicks-default-rtdb.firebaseio.com",
+    "project_id": "hperkicks",
+    "storage_bucket": "hperkicks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617451811406:android:af6025eeb8d770991fc91f",
+        "android_client_info": {
+          "package_name": "com.example.hperkicksadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgeWEPwgjooigRQCW94oIE7hjC4YfMiCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617451811406:android:0b179e5886f833041fc91f",
+        "android_client_info": {
+          "package_name": "com.example.hyperkicks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgeWEPwgjooigRQCW94oIE7hjC4YfMiCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

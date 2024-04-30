@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Card View widget-->
+
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:contentPadding="3dp"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="5dp"
+    card_view:cardBackgroundColor="@color/white"
+    android:layout_margin="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="395dp"
+        android:layout_height="282dp"
+        card_view:layout_constraintBottom_toBottomOf="@+id/textView16"
+        card_view:layout_constraintEnd_toEndOf="@+id/ordername"
+        card_view:layout_constraintStart_toEndOf="@+id/ordername"
+        card_view:layout_constraintTop_toBottomOf="@+id/textView16">
+
+        <TextView
+            android:id="@+id/ordername"
+            android:layout_width="184dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="1dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            card_view:layout_constraintBottom_toTopOf="@+id/ordercity"
+            card_view:layout_constraintEnd_toEndOf="@+id/orderno"
+            card_view:layout_constraintStart_toStartOf="@+id/ordercity"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/orderaddress"
+            android:layout_width="163dp"
+            android:layout_height="36dp"
+            android:text="adress"
+            card_view:layout_constraintBottom_toTopOf="@+id/orderno"
+            card_view:layout_constraintEnd_toEndOf="@+id/orderno"
+            card_view:layout_constraintStart_toStartOf="@+id/orderno"
+            card_view:layout_constraintTop_toBottomOf="@+id/ordercity" />
+
+        <TextView
+            android:id="@+id/ordercity"
+            android:layout_width="172dp"
+            android:layout_height="33dp"
+            android:layout_marginEnd="4dp"
+            android:text="city name"
+            card_view:layout_constraintBottom_toTopOf="@+id/orderaddress"
+            card_view:layout_constraintEnd_toEndOf="@+id/orderno"
+            card_view:layout_constraintStart_toStartOf="@+id/orderaddress"
+            card_view:layout_constraintTop_toBottomOf="@+id/ordername" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="7dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/orderno"
+            android:layout_width="186dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:text="Order number"
+            card_view:layout_constraintBottom_toTopOf="@+id/textView9"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/orderaddress" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="184dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="7dp"
+            android:text="Pending"
+            android:textColor="@color/purple_200"
+            android:textSize="20sp"
+            card_view:layout_constraintBottom_toTopOf="@+id/recyclerView2"
+            card_view:layout_constraintEnd_toEndOf="@+id/orderno"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/orderno" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg2"
+    tools:context=".hyper_signup">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="664dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="-69dp"
+            app:cardCornerRadius="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="@string/sign_up"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="315dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="100dp"
+                android:ems="10"
+                android:hint="@string/username"
+                android:inputType="textPersonName"
+                />
+
+
+            <EditText
+                android:id="@+id/fname"
+                android:layout_width="wrap_content"
+                android:layout_height="59dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="150dp"
+                android:autofillHints="name"
+                android:ems="15"
+                android:hint="@string/first_name"
+                android:inputType="text"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/lname"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:autofillHints="name"
+                android:ems="15"
+                android:inputType="textPersonName"
+                android:hint="@string/last_name"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="63dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="245dp"
+                android:autofillHints="emailAddress"
+                android:ems="15"
+                android:hint="@string/enter_your_email"
+                android:inputType="textEmailAddress"
+                 />
+
+            <EditText
+                android:id="@+id/pswd"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="300dp"
+                android:autofillHints="password"
+                android:ems="15"
+                android:inputType="textPassword"
+                android:hint= "@string/password"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="360dp"
+                android:text="@string/at_least_8_characters_1_upper_case_letter_1_number_one_symbol" />
+
+            <Button
+                android:id="@+id/signup_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="63dp"
+                android:layout_marginTop="420dp"
+                android:ems="16"
+                android:text="@string/sign_up"
+                android:shadowRadius="90"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="480dp"
+                android:text="Already have a Account?" />
+            <TextView
+                android:id="@+id/loginredirect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="480dp"
+                android:text="@string/log_in" />
+
+
+        </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
